@@ -720,6 +720,7 @@ body{
 
     .footer-bottom{
         font-size: 14px;
+        padding-bottom: 45px;
     }
 }
 
@@ -813,7 +814,7 @@ body{
 
     .footer-bottom{
         font-size: 13px;
-        padding-bottom: 32px;
+        padding-bottom: 45px;
     }
 
     .social-list{
@@ -873,6 +874,6 @@ body{
 
     .footer-bottom{
         font-size: 12px;
-        padding-bottom: 24px;
+        padding-bottom: 45px;
     }
 }
