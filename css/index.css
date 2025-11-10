@@ -740,7 +740,7 @@ body{
 
     .hero{
         padding: 40px 20px;
-        align-items: flex-start;
+        align-items: center;
         text-align: center;
     }
 
