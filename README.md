@@ -124,5 +124,5 @@ Lean UX Canvas · User Stories · Product Backlog · Wireframes
 
 ---
 
-## 📊 Arquitectura de la App
+✨ *Hecho con dedicación por el equipo Quantia — UPC 2025*
 
