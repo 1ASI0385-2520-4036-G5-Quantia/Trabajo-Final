@@ -1,0 +1,229 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(135deg, #2971B8 0%, #1e40af 50%, #06b6d4 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== CONTENEDOR PRINCIPAL ===== */
+.main-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+/* ===== SECCIÓN ===== */
+.signup-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 420px;
+  animation: fadeInUp 0.8s ease;
+}
+
+/* ===== TÍTULO ===== */
+.signup-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+
+/* ===== FORMULARIO ===== */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.form-group input {
+  display: block;
+  width: 100%;
+  padding: 0.9rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #2971B8;
+  box-shadow: 0 0 0 3px rgba(41, 113, 184, 0.25);
+}
+
+/* ===== BOTÓN PRINCIPAL ===== */
+.btn-primary {
+  background: linear-gradient(90deg, #2971B8, #1e40af);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(41, 113, 184, 0.4);
+}
+
+/* ===== DIVISOR ===== */
+.signin-alt {
+  width: 100%;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #9ca3af;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: #e5e7eb;
+}
+
+.divider span {
+  margin: 0 10px;
+}
+
+/* ===== BOTONES SOCIALES ===== */
+.social-buttons {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.btn-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background-color: #fff;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-social:hover {
+  background-color: #f9fafb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Colores de marca */
+.btn-google svg path { 
+  fill: #EA4335; 
+}
+
+.btn-facebook svg path { 
+  fill: #1877F2; 
+}
+
+.btn-linkedin svg path { 
+  fill: #0A66C2; 
+}
+
+/* ===== ENLACE DE INICIO DE SESIÓN ===== */
+.signin-text {
+  text-align: center;
+  color: #374151;
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+}
+
+.signin-text a {
+  color: #2971B8;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.signin-text a:hover {
+  color: #1e40af;
+}
+
+/* ===== ANIMACIÓN ===== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 480px) {
+  .signup-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .signup-title {
+    font-size: 1.6rem;
+  }
+
+  .btn-primary {
+    font-size: 0.95rem;
+  }
+  
+  .social-buttons {
+    flex-direction: column;
+  }
+  
+  .btn-social {
+    width: 100%;
+  }
+}
