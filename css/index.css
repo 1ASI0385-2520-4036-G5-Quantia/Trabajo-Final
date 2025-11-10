@@ -625,7 +625,7 @@ body{
         padding: 60px 40px;
         background-position: center;
         text-align: left;
-        align-items: flex-start;
+        align-items: center;
         gap: 32px;
     }
 
