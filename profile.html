@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Cuenta</title>
+  <link rel="stylesheet" href="css/profile.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/supabase.min.js"></script>
+</head>
+<body>
+  <main class="profile-main">
+    <h1>Mi Cuenta</h1>
+    <div class="user-info">
+      <p><strong>Nombre:</strong> <span id="user-name">Cargando...</span></p>
+      <p><strong>Email:</strong> <span id="user-email">Cargando...</span></p>
+    </div>
+    <button id="delete-btn" class="btn-primary">Eliminar cuenta</button>
+    <button id="signout-btn" class="btn-secondary">Cerrar sesión</button>
+  </main>
+
+  <script src="js/profile.js"></script>
+</body>
+</html>
