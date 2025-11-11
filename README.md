@@ -8,7 +8,7 @@
 ## 🖥️ Vista del Proyecto
 
 🎨 **Versión web oficial del proyecto:**  
-📍 `https://1asi0385-2520-4036-g5-quantia.github.io/Trabajo-Final/`
+📍 `https://1asi0385-2520-4036-g5-quantia.github.io/Quantia/`
 
 ![Vista previa de Quantia](images/Page.png)
 
